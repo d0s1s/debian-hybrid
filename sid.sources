@@ -1,7 +1,7 @@
 Types:
  deb
  deb-src
-URIs: http://deb.debian.org/debian/
+URIs: https://cdn-fastly.deb.debian.org/debian/
 Suites:
  sid
 Components:
