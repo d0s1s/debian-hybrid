@@ -34,4 +34,4 @@ done
 
 chmod 644 /var/lib/debsecan/apt_preferences.disabled
 
-mv -vf /var/lib/debsecan/apt_preferences.disabled /var/lib/debsecan/apt_preferences
+mv -f /var/lib/debsecan/apt_preferences.disabled /var/lib/debsecan/apt_preferences
