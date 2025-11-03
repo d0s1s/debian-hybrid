@@ -1,6 +1,5 @@
 Types:
  deb
- deb-src
 URIs: https://cdn-fastly.deb.debian.org/debian/
 Suites:
  testing
@@ -18,7 +17,6 @@ Signed-By:
 
 Types:
  deb
- deb-src
 URIs: https://cdn-fastly.deb.debian.org/debian-security
 Suites: testing-security
 Components:
