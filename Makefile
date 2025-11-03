@@ -26,11 +26,4 @@ else
 	apt-get update
 	apt-cache policy
 endif
-browser:
-ifneq ($(shell id -u), 0)
-	sudo make $@
-else
-	install -o root -g root -m 0644 unstable-packages /etc/apt/preferences.d/
-	apt-get update
-	apt-cache policy chromium firefox
-endif
+
