@@ -35,17 +35,6 @@ make install
 
 you can view the list of packages which will be installed from unstable in `/var/lib/debsecan/apt_preferences`
 
-# special cases
-
-i recommend **always** running chromium and firefox from unstable.
-
-this can be achieved with the following:
-
-```shell
-make browser
-sudo apt install -y chromium firefox
-```
-
 # uninstallation
 
 note: uninstalling will not downgrade packages to their testing versions. you will need to do this yourself or wait for the packages to catch up on their own (which should typically happen within a few weeks).
