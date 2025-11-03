@@ -4,6 +4,8 @@ ifneq ($(shell id -u), 0)
 else
 	apt-get -u -y install debsecan
 	rm -f /etc/apt/sources.list
+	rm -f /etc/apt/sources.list.d/debian.sources
+	rm -f /etc/apt/sources.list.d/debian-backports.sources
 	install -o root -g root -m 0644 testing.sources /etc/apt/sources.list.d/
 	install -o root -g root -m 0644 sid.sources /etc/apt/sources.list.d/
 	install -o root -g root -m 0644 99debsecan /etc/apt/apt.conf.d/
