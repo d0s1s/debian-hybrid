@@ -1,14 +1,7 @@
-Types:
- deb
+Types: deb
 URIs: https://cdn-fastly.deb.debian.org/debian/
-Suites:
- sid
-Components:
- main
- contrib
- non-free-firmware
- non-free
+Suites: sid
+Components: main contrib non-free-firmware non-free
 Enabled: yes
-Signed-By:
- /usr/share/keyrings/debian-archive-keyring.gpg
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 
